@@ -110,7 +110,6 @@ PG_HOST     = "localhost"
 PG_PORT     = "5432"
 PG_DB       = "Pipeline_DB"
 ```
-
 ### 4. Run the notebook
 Open `CSV_to_SQL_Weekly_Pipeline.ipynb` and run cells top to bottom:
 
@@ -149,3 +148,15 @@ Open `CSV_to_SQL_Weekly_Pipeline.ipynb` and run cells top to bottom:
 - **Multi-table loading** — each CSV lands in its own PostgreSQL table automatically
 
 ---
+
+## Future Improvements
+
+Email alerts after each run using smtplib
+Cloud storage integration (AWS S3 or Azure Blob)
+Data quality checks before loading
+Streamlit dashboard to visualise loaded data
+Migration to Apache Airflow for production scheduling
+
+## Author
+Onyinye Chukwu
+Built as a Data Engineering learning project.
