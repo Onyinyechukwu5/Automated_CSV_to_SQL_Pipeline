@@ -1,0 +1,302 @@
+2026-06-24 23:08:21,260  [INFO]  =======================================================
+2026-06-24 23:08:21,264  [INFO]  Pipeline started
+2026-06-24 23:08:21,668  [INFO]  Reading  →  customer_orders.csv
+2026-06-24 23:08:21,711  [INFO]    Shape before transform: (12, 8)
+2026-06-24 23:08:21,747  [INFO]    [customer_orders.csv] Duplicates removed: 2
+2026-06-24 23:08:21,776  [INFO]    Shape after  transform: (10, 9)
+2026-06-24 23:08:21,951  [ERROR]  FAILED  customer_orders.csv  —  (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "Postgres"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-06-24 23:08:21,953  [INFO]  Reading  →  employees.csv
+2026-06-24 23:08:21,969  [INFO]    Shape before transform: (11, 8)
+2026-06-24 23:08:21,972  [INFO]    [employees.csv] Duplicates removed: 1
+2026-06-24 23:08:21,984  [INFO]    Shape after  transform: (10, 9)
+2026-06-24 23:08:22,037  [ERROR]  FAILED  employees.csv  —  (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "Postgres"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-06-24 23:08:22,039  [INFO]  Reading  →  inventory.csv
+2026-06-24 23:08:22,051  [INFO]    Shape before transform: (12, 8)
+2026-06-24 23:08:22,060  [INFO]    [inventory.csv] Duplicates removed: 2
+2026-06-24 23:08:22,069  [INFO]    Shape after  transform: (10, 9)
+2026-06-24 23:08:22,123  [ERROR]  FAILED  inventory.csv  —  (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "Postgres"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-06-24 23:08:22,124  [INFO]  Reading  →  payroll.csv
+2026-06-24 23:08:22,139  [INFO]    Shape before transform: (12, 8)
+2026-06-24 23:08:22,143  [INFO]    [payroll.csv] Duplicates removed: 2
+2026-06-24 23:08:22,152  [INFO]    Shape after  transform: (10, 9)
+2026-06-24 23:08:22,236  [ERROR]  FAILED  payroll.csv  —  (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "Postgres"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-06-24 23:08:22,237  [INFO]  Reading  →  product_returns.csv
+2026-06-24 23:08:22,254  [INFO]    Shape before transform: (12, 8)
+2026-06-24 23:08:22,259  [INFO]    [product_returns.csv] Duplicates removed: 2
+2026-06-24 23:08:22,269  [INFO]    Shape after  transform: (10, 9)
+2026-06-24 23:08:22,325  [ERROR]  FAILED  product_returns.csv  —  (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "Postgres"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-06-24 23:08:22,325  [INFO]  Reading  →  project_tasks.csv
+2026-06-24 23:08:22,348  [INFO]    Shape before transform: (12, 8)
+2026-06-24 23:08:22,351  [INFO]    [project_tasks.csv] Duplicates removed: 2
+2026-06-24 23:08:22,366  [INFO]    Shape after  transform: (10, 9)
+2026-06-24 23:08:22,530  [ERROR]  FAILED  project_tasks.csv  —  (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "Postgres"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-06-24 23:08:22,531  [INFO]  Reading  →  sales_q1.csv
+2026-06-24 23:08:22,548  [INFO]    Shape before transform: (12, 8)
+2026-06-24 23:08:22,555  [INFO]    [sales_q1.csv] Duplicates removed: 2
+2026-06-24 23:08:22,572  [INFO]    Shape after  transform: (10, 9)
+2026-06-24 23:08:22,735  [ERROR]  FAILED  sales_q1.csv  —  (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "Postgres"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-06-24 23:08:22,735  [INFO]  Reading  →  store_branches.csv
+2026-06-24 23:08:22,753  [INFO]    Shape before transform: (12, 8)
+2026-06-24 23:08:22,753  [INFO]    [store_branches.csv] Duplicates removed: 2
+2026-06-24 23:08:22,767  [INFO]    Shape after  transform: (10, 9)
+2026-06-24 23:08:22,843  [ERROR]  FAILED  store_branches.csv  —  (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "Postgres"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-06-24 23:08:22,844  [INFO]  Reading  →  supplier_invoices.csv
+2026-06-24 23:08:22,862  [INFO]    Shape before transform: (12, 8)
+2026-06-24 23:08:22,865  [INFO]    [supplier_invoices.csv] Duplicates removed: 2
+2026-06-24 23:08:22,877  [INFO]    Shape after  transform: (10, 9)
+2026-06-24 23:08:22,933  [ERROR]  FAILED  supplier_invoices.csv  —  (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "Postgres"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-06-24 23:08:22,936  [INFO]  Reading  →  training_records.csv
+2026-06-24 23:08:22,956  [INFO]    Shape before transform: (12, 8)
+2026-06-24 23:08:22,960  [INFO]    [training_records.csv] Duplicates removed: 2
+2026-06-24 23:08:22,988  [INFO]    Shape after  transform: (10, 9)
+2026-06-24 23:08:23,180  [ERROR]  FAILED  training_records.csv  —  (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "Postgres"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-06-24 23:08:23,182  [INFO]  Reading  →  website_traffic.csv
+2026-06-24 23:08:23,204  [INFO]    Shape before transform: (11, 8)
+2026-06-24 23:08:23,210  [INFO]    [website_traffic.csv] Duplicates removed: 1
+2026-06-24 23:08:23,240  [INFO]    Shape after  transform: (10, 9)
+2026-06-24 23:08:23,317  [ERROR]  FAILED  website_traffic.csv  —  (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "Postgres"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-06-24 23:08:23,317  [INFO]  Pipeline finished — 0 loaded, 0 skipped.
+2026-06-24 23:08:23,324  [INFO]  =======================================================
+2026-06-24 23:10:00,195  [INFO]  =======================================================
+2026-06-24 23:10:00,198  [INFO]  Pipeline started
+2026-06-24 23:10:00,201  [INFO]  Reading  →  customer_orders.csv
+2026-06-24 23:10:00,206  [INFO]    Shape before transform: (12, 8)
+2026-06-24 23:10:00,212  [INFO]    [customer_orders.csv] Duplicates removed: 2
+2026-06-24 23:10:00,235  [INFO]    Shape after  transform: (10, 9)
+2026-06-24 23:10:00,313  [ERROR]  FAILED  customer_orders.csv  —  (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "Postgres"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-06-24 23:10:00,313  [INFO]  Reading  →  employees.csv
+2026-06-24 23:10:00,321  [INFO]    Shape before transform: (11, 8)
+2026-06-24 23:10:00,327  [INFO]    [employees.csv] Duplicates removed: 1
+2026-06-24 23:10:00,346  [INFO]    Shape after  transform: (10, 9)
+2026-06-24 23:10:00,544  [ERROR]  FAILED  employees.csv  —  (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "Postgres"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-06-24 23:10:00,544  [INFO]  Reading  →  inventory.csv
+2026-06-24 23:10:00,556  [INFO]    Shape before transform: (12, 8)
+2026-06-24 23:10:00,565  [INFO]    [inventory.csv] Duplicates removed: 2
+2026-06-24 23:10:00,576  [INFO]    Shape after  transform: (10, 9)
+2026-06-24 23:10:00,640  [ERROR]  FAILED  inventory.csv  —  (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "Postgres"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-06-24 23:10:00,641  [INFO]  Reading  →  payroll.csv
+2026-06-24 23:10:00,646  [INFO]    Shape before transform: (12, 8)
+2026-06-24 23:10:00,649  [INFO]    [payroll.csv] Duplicates removed: 2
+2026-06-24 23:10:00,658  [INFO]    Shape after  transform: (10, 9)
+2026-06-24 23:10:00,707  [ERROR]  FAILED  payroll.csv  —  (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "Postgres"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-06-24 23:10:00,707  [INFO]  Reading  →  product_returns.csv
+2026-06-24 23:10:00,712  [INFO]    Shape before transform: (12, 8)
+2026-06-24 23:10:00,715  [INFO]    [product_returns.csv] Duplicates removed: 2
+2026-06-24 23:10:00,723  [INFO]    Shape after  transform: (10, 9)
+2026-06-24 23:10:00,772  [ERROR]  FAILED  product_returns.csv  —  (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "Postgres"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-06-24 23:10:00,773  [INFO]  Reading  →  project_tasks.csv
+2026-06-24 23:10:00,776  [INFO]    Shape before transform: (12, 8)
+2026-06-24 23:10:00,780  [INFO]    [project_tasks.csv] Duplicates removed: 2
+2026-06-24 23:10:00,787  [INFO]    Shape after  transform: (10, 9)
+2026-06-24 23:10:00,867  [ERROR]  FAILED  project_tasks.csv  —  (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "Postgres"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-06-24 23:10:00,870  [INFO]  Reading  →  sales_q1.csv
+2026-06-24 23:10:00,873  [INFO]    Shape before transform: (12, 8)
+2026-06-24 23:10:00,877  [INFO]    [sales_q1.csv] Duplicates removed: 2
+2026-06-24 23:10:00,882  [INFO]    Shape after  transform: (10, 9)
+2026-06-24 23:10:00,934  [ERROR]  FAILED  sales_q1.csv  —  (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "Postgres"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-06-24 23:10:00,935  [INFO]  Reading  →  store_branches.csv
+2026-06-24 23:10:00,938  [INFO]    Shape before transform: (12, 8)
+2026-06-24 23:10:00,941  [INFO]    [store_branches.csv] Duplicates removed: 2
+2026-06-24 23:10:00,949  [INFO]    Shape after  transform: (10, 9)
+2026-06-24 23:10:01,000  [ERROR]  FAILED  store_branches.csv  —  (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "Postgres"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-06-24 23:10:01,001  [INFO]  Reading  →  supplier_invoices.csv
+2026-06-24 23:10:01,005  [INFO]    Shape before transform: (12, 8)
+2026-06-24 23:10:01,009  [INFO]    [supplier_invoices.csv] Duplicates removed: 2
+2026-06-24 23:10:01,019  [INFO]    Shape after  transform: (10, 9)
+2026-06-24 23:10:01,194  [ERROR]  FAILED  supplier_invoices.csv  —  (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "Postgres"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-06-24 23:10:01,201  [INFO]  Reading  →  training_records.csv
+2026-06-24 23:10:01,206  [INFO]    Shape before transform: (12, 8)
+2026-06-24 23:10:01,212  [INFO]    [training_records.csv] Duplicates removed: 2
+2026-06-24 23:10:01,222  [INFO]    Shape after  transform: (10, 9)
+2026-06-24 23:10:01,266  [ERROR]  FAILED  training_records.csv  —  (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "Postgres"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-06-24 23:10:01,280  [INFO]  Reading  →  website_traffic.csv
+2026-06-24 23:10:01,286  [INFO]    Shape before transform: (11, 8)
+2026-06-24 23:10:01,289  [INFO]    [website_traffic.csv] Duplicates removed: 1
+2026-06-24 23:10:01,298  [INFO]    Shape after  transform: (10, 9)
+2026-06-24 23:10:01,349  [ERROR]  FAILED  website_traffic.csv  —  (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "Postgres"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-06-24 23:10:01,350  [INFO]  Pipeline finished — 0 loaded, 0 skipped.
+2026-06-24 23:10:01,352  [INFO]  =======================================================
+2026-06-24 23:11:34,550  [INFO]  =======================================================
+2026-06-24 23:11:34,552  [INFO]  Pipeline started
+2026-06-24 23:11:34,556  [INFO]  Reading  →  customer_orders.csv
+2026-06-24 23:11:34,560  [INFO]    Shape before transform: (12, 8)
+2026-06-24 23:11:34,565  [INFO]    [customer_orders.csv] Duplicates removed: 2
+2026-06-24 23:11:34,581  [INFO]    Shape after  transform: (10, 9)
+2026-06-24 23:11:34,645  [ERROR]  FAILED  customer_orders.csv  —  (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  database "Pipeline_DB" does not exist
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-06-24 23:11:34,646  [INFO]  Reading  →  employees.csv
+2026-06-24 23:11:34,649  [INFO]    Shape before transform: (11, 8)
+2026-06-24 23:11:34,652  [INFO]    [employees.csv] Duplicates removed: 1
+2026-06-24 23:11:34,676  [INFO]    Shape after  transform: (10, 9)
+2026-06-24 23:11:34,750  [ERROR]  FAILED  employees.csv  —  (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  database "Pipeline_DB" does not exist
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-06-24 23:11:34,751  [INFO]  Reading  →  inventory.csv
+2026-06-24 23:11:34,755  [INFO]    Shape before transform: (12, 8)
+2026-06-24 23:11:34,758  [INFO]    [inventory.csv] Duplicates removed: 2
+2026-06-24 23:11:34,766  [INFO]    Shape after  transform: (10, 9)
+2026-06-24 23:11:34,828  [ERROR]  FAILED  inventory.csv  —  (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  database "Pipeline_DB" does not exist
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-06-24 23:11:34,829  [INFO]  Reading  →  payroll.csv
+2026-06-24 23:11:34,837  [INFO]    Shape before transform: (12, 8)
+2026-06-24 23:11:34,841  [INFO]    [payroll.csv] Duplicates removed: 2
+2026-06-24 23:11:34,853  [INFO]    Shape after  transform: (10, 9)
+2026-06-24 23:11:34,915  [ERROR]  FAILED  payroll.csv  —  (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  database "Pipeline_DB" does not exist
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-06-24 23:11:34,919  [INFO]  Reading  →  product_returns.csv
+2026-06-24 23:11:34,924  [INFO]    Shape before transform: (12, 8)
+2026-06-24 23:11:34,930  [INFO]    [product_returns.csv] Duplicates removed: 2
+2026-06-24 23:11:34,939  [INFO]    Shape after  transform: (10, 9)
+2026-06-24 23:11:34,990  [ERROR]  FAILED  product_returns.csv  —  (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  database "Pipeline_DB" does not exist
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-06-24 23:11:34,992  [INFO]  Reading  →  project_tasks.csv
+2026-06-24 23:11:34,996  [INFO]    Shape before transform: (12, 8)
+2026-06-24 23:11:34,999  [INFO]    [project_tasks.csv] Duplicates removed: 2
+2026-06-24 23:11:35,008  [INFO]    Shape after  transform: (10, 9)
+2026-06-24 23:11:35,062  [ERROR]  FAILED  project_tasks.csv  —  (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  database "Pipeline_DB" does not exist
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-06-24 23:11:35,063  [INFO]  Reading  →  sales_q1.csv
+2026-06-24 23:11:35,067  [INFO]    Shape before transform: (12, 8)
+2026-06-24 23:11:35,070  [INFO]    [sales_q1.csv] Duplicates removed: 2
+2026-06-24 23:11:35,078  [INFO]    Shape after  transform: (10, 9)
+2026-06-24 23:11:35,291  [ERROR]  FAILED  sales_q1.csv  —  (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  database "Pipeline_DB" does not exist
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-06-24 23:11:35,291  [INFO]  Reading  →  store_branches.csv
+2026-06-24 23:11:35,304  [INFO]    Shape before transform: (12, 8)
+2026-06-24 23:11:35,311  [INFO]    [store_branches.csv] Duplicates removed: 2
+2026-06-24 23:11:35,322  [INFO]    Shape after  transform: (10, 9)
+2026-06-24 23:11:35,378  [ERROR]  FAILED  store_branches.csv  —  (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  database "Pipeline_DB" does not exist
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-06-24 23:11:35,379  [INFO]  Reading  →  supplier_invoices.csv
+2026-06-24 23:11:35,384  [INFO]    Shape before transform: (12, 8)
+2026-06-24 23:11:35,387  [INFO]    [supplier_invoices.csv] Duplicates removed: 2
+2026-06-24 23:11:35,397  [INFO]    Shape after  transform: (10, 9)
+2026-06-24 23:11:35,450  [ERROR]  FAILED  supplier_invoices.csv  —  (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  database "Pipeline_DB" does not exist
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-06-24 23:11:35,450  [INFO]  Reading  →  training_records.csv
+2026-06-24 23:11:35,454  [INFO]    Shape before transform: (12, 8)
+2026-06-24 23:11:35,458  [INFO]    [training_records.csv] Duplicates removed: 2
+2026-06-24 23:11:35,468  [INFO]    Shape after  transform: (10, 9)
+2026-06-24 23:11:35,515  [ERROR]  FAILED  training_records.csv  —  (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  database "Pipeline_DB" does not exist
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-06-24 23:11:35,516  [INFO]  Reading  →  website_traffic.csv
+2026-06-24 23:11:35,520  [INFO]    Shape before transform: (11, 8)
+2026-06-24 23:11:35,524  [INFO]    [website_traffic.csv] Duplicates removed: 1
+2026-06-24 23:11:35,532  [INFO]    Shape after  transform: (10, 9)
+2026-06-24 23:11:35,578  [ERROR]  FAILED  website_traffic.csv  —  (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  database "Pipeline_DB" does not exist
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-06-24 23:11:35,579  [INFO]  Pipeline finished — 0 loaded, 0 skipped.
+2026-06-24 23:11:35,580  [INFO]  =======================================================
+2026-06-24 23:37:24,950  [INFO]  =======================================================
+2026-06-24 23:37:24,952  [INFO]  Pipeline started
+2026-06-24 23:37:24,967  [INFO]  Reading  →  customer_orders.csv
+2026-06-24 23:37:24,998  [INFO]    Shape before transform: (12, 8)
+2026-06-24 23:37:25,012  [INFO]    [customer_orders.csv] Duplicates removed: 2
+2026-06-24 23:37:25,039  [INFO]    Shape after  transform: (10, 9)
+2026-06-24 23:37:25,326  [INFO]  LOADED  customer_orders.csv  →  table 'customer_orders'  (10 rows)
+2026-06-24 23:37:25,326  [INFO]  Reading  →  employees.csv
+2026-06-24 23:37:25,334  [INFO]    Shape before transform: (11, 8)
+2026-06-24 23:37:25,338  [INFO]    [employees.csv] Duplicates removed: 1
+2026-06-24 23:37:25,351  [INFO]    Shape after  transform: (10, 9)
+2026-06-24 23:37:25,369  [INFO]  LOADED  employees.csv  →  table 'employees'  (10 rows)
+2026-06-24 23:37:25,371  [INFO]  Reading  →  inventory.csv
+2026-06-24 23:37:25,375  [INFO]    Shape before transform: (12, 8)
+2026-06-24 23:37:25,382  [INFO]    [inventory.csv] Duplicates removed: 2
+2026-06-24 23:37:25,395  [INFO]    Shape after  transform: (10, 9)
+2026-06-24 23:37:25,415  [INFO]  LOADED  inventory.csv  →  table 'inventory'  (10 rows)
+2026-06-24 23:37:25,416  [INFO]  Reading  →  payroll.csv
+2026-06-24 23:37:25,422  [INFO]    Shape before transform: (12, 8)
+2026-06-24 23:37:25,424  [INFO]    [payroll.csv] Duplicates removed: 2
+2026-06-24 23:37:25,438  [INFO]    Shape after  transform: (10, 9)
+2026-06-24 23:37:25,457  [INFO]  LOADED  payroll.csv  →  table 'payroll'  (10 rows)
+2026-06-24 23:37:25,459  [INFO]  Reading  →  product_returns.csv
+2026-06-24 23:37:25,466  [INFO]    Shape before transform: (12, 8)
+2026-06-24 23:37:25,471  [INFO]    [product_returns.csv] Duplicates removed: 2
+2026-06-24 23:37:25,483  [INFO]    Shape after  transform: (10, 9)
+2026-06-24 23:37:25,504  [INFO]  LOADED  product_returns.csv  →  table 'product_returns'  (10 rows)
+2026-06-24 23:37:25,506  [INFO]  Reading  →  project_tasks.csv
+2026-06-24 23:37:25,511  [INFO]    Shape before transform: (12, 8)
+2026-06-24 23:37:25,516  [INFO]    [project_tasks.csv] Duplicates removed: 2
+2026-06-24 23:37:25,528  [INFO]    Shape after  transform: (10, 9)
+2026-06-24 23:37:25,548  [INFO]  LOADED  project_tasks.csv  →  table 'project_tasks'  (10 rows)
+2026-06-24 23:37:25,550  [INFO]  Reading  →  sales_q1.csv
+2026-06-24 23:37:25,557  [INFO]    Shape before transform: (12, 8)
+2026-06-24 23:37:25,562  [INFO]    [sales_q1.csv] Duplicates removed: 2
+2026-06-24 23:37:25,578  [INFO]    Shape after  transform: (10, 9)
+2026-06-24 23:37:25,600  [INFO]  LOADED  sales_q1.csv  →  table 'sales_q1'  (10 rows)
+2026-06-24 23:37:25,601  [INFO]  Reading  →  store_branches.csv
+2026-06-24 23:37:25,609  [INFO]    Shape before transform: (12, 8)
+2026-06-24 23:37:25,615  [INFO]    [store_branches.csv] Duplicates removed: 2
+2026-06-24 23:37:25,628  [INFO]    Shape after  transform: (10, 9)
+2026-06-24 23:37:25,650  [INFO]  LOADED  store_branches.csv  →  table 'store_branches'  (10 rows)
+2026-06-24 23:37:25,652  [INFO]  Reading  →  supplier_invoices.csv
+2026-06-24 23:37:25,658  [INFO]    Shape before transform: (12, 8)
+2026-06-24 23:37:25,664  [INFO]    [supplier_invoices.csv] Duplicates removed: 2
+2026-06-24 23:37:25,681  [INFO]    Shape after  transform: (10, 9)
+2026-06-24 23:37:25,707  [INFO]  LOADED  supplier_invoices.csv  →  table 'supplier_invoices'  (10 rows)
+2026-06-24 23:37:25,708  [INFO]  Reading  →  training_records.csv
+2026-06-24 23:37:25,716  [INFO]    Shape before transform: (12, 8)
+2026-06-24 23:37:25,722  [INFO]    [training_records.csv] Duplicates removed: 2
+2026-06-24 23:37:25,739  [INFO]    Shape after  transform: (10, 9)
+2026-06-24 23:37:25,762  [INFO]  LOADED  training_records.csv  →  table 'training_records'  (10 rows)
+2026-06-24 23:37:25,766  [INFO]  Reading  →  website_traffic.csv
+2026-06-24 23:37:25,799  [INFO]    Shape before transform: (11, 8)
+2026-06-24 23:37:25,808  [INFO]    [website_traffic.csv] Duplicates removed: 1
+2026-06-24 23:37:25,820  [INFO]    Shape after  transform: (10, 9)
+2026-06-24 23:37:25,838  [INFO]  LOADED  website_traffic.csv  →  table 'website_traffic'  (10 rows)
+2026-06-24 23:37:25,839  [INFO]  Pipeline finished — 11 loaded, 0 skipped.
+2026-06-24 23:37:25,840  [INFO]  =======================================================
